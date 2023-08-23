@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import BalloonPage from './components/Balloon';
+import FormPage from './components/Form';
+import  './components/style.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Balloon Animation</Link>
+          </li>
+          <li>
+            <Link to="/form">Form with API Call</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="/" element = {<BalloonPage />}> </Route>
+        <Route path="/form" element = {<FormPage />}> </Route>
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
