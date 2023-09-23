@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TextUtils---TicTacToe---Weather/static/css/main.35f423b0.css",
-    "main.js": "/TextUtils---TicTacToe---Weather/static/js/main.f9443b87.js",
-    "static/js/787.840648ee.chunk.js": "/TextUtils---TicTacToe---Weather/static/js/787.840648ee.chunk.js",
-    "index.html": "/TextUtils---TicTacToe---Weather/index.html",
-    "main.35f423b0.css.map": "/TextUtils---TicTacToe---Weather/static/css/main.35f423b0.css.map",
-    "main.f9443b87.js.map": "/TextUtils---TicTacToe---Weather/static/js/main.f9443b87.js.map",
-    "787.840648ee.chunk.js.map": "/TextUtils---TicTacToe---Weather/static/js/787.840648ee.chunk.js.map"
+    "main.css": "/Balloon-Inflate/static/css/main.35f423b0.css",
+    "main.js": "/Balloon-Inflate/static/js/main.76d939cf.js",
+    "static/js/787.840648ee.chunk.js": "/Balloon-Inflate/static/js/787.840648ee.chunk.js",
+    "index.html": "/Balloon-Inflate/index.html",
+    "main.35f423b0.css.map": "/Balloon-Inflate/static/css/main.35f423b0.css.map",
+    "main.76d939cf.js.map": "/Balloon-Inflate/static/js/main.76d939cf.js.map",
+    "787.840648ee.chunk.js.map": "/Balloon-Inflate/static/js/787.840648ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35f423b0.css",
-    "static/js/main.f9443b87.js"
+    "static/js/main.76d939cf.js"
   ]
 }
